@@ -365,7 +365,15 @@
 							</a>
 						</li>
 					</ul>
+					
 				</div>
+				<form action="" class="footer-form">
+					<p class="footer-form-text footer-title">Subscribe</p>
+					<div class="footer-form-wrapper">
+						<input type="email" name="email" placeholder="E-mail" class="footer-form-input"/>
+						<button class="footer-form-button" type="submit">Subscribe</button>
+					</div>
+				</form>
 			</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
@@ -375,6 +383,47 @@
 						<use href="./img/symbol-defs .svg#icon-Vector"></use>
 					</svg>
 				</button>
+				<form action="" class="modal-form">
+					<p class="form-text">Leave your contacts and we will call you back</p>
+					<div class="form-field">
+						<label for="name" class="form-label">Name</label>
+						<div class="form-input-wrapper">
+							<input type="name" class="form-input" id="name" name="name"/>
+							<svg class="form-icon" width="18" height="24">
+								<use href="./img/form/symbol-defs.svg#icon-form-name"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="form-field">
+						<label for="tel" class="form-label">Phone</label>
+						<div class="form-input-wrapper">
+							<input type="tel" class="form-input" id="tel" name="tel" />
+							<svg class="form-icon" width="18" height="24">
+								<use href="./img/form/symbol-defs.svg#icon-form-phone"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="form-field">
+						<label for="mail" class="form-label">Email</label>
+						<div class="form-input-wrapper">
+							<input type="email" name="mail" class="form-input" id="mail" />
+							<svg class="form-icon" width="18" height="24">
+								<use href="./img/form/symbol-defs.svg#icon-form-mail"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="form-field">
+						<label for="comment" class="form-label">Comment</label>
+						<textarea class="form-area" name="comment" id="comment" placeholder="Text input" rows="10"></textarea>
+					</div>
+					<label class="form-field-checkbox form-label-checkbox">
+						<input name="checkbox" class="form-input-checkbox hidden" type="checkbox" />
+						<span class="checkbox-icon"></span>
+						I accept the terms and conditions of the
+						<a href="">Privacy Policy</a>
+					</label>
+					<button type="submit" class="form-button">Send</button>
+				</form>
 			</div>
 		</div>
 		<script src="./scripts/modal.js"></script>
