@@ -460,8 +460,11 @@ span {
 .footer-icon {
 	fill: var(--light);
 }
-.footer-form {
+.footer-form-container{
 	margin-left: 80px;
+}
+.footer-form {
+	
 }
 .footer-form-wrapper {
 	display: flex;
@@ -673,12 +676,17 @@ span {
 .modal-form {
 	margin: auto;
 	max-width: 360px;
-	margin-top: 72px;
+	
 }
 .form-text {
 	text-align: center;
-
 	margin-bottom: 16px;
+	margin-top: 72px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--dark);
 }
 .form-field {
 	margin-bottom: 8px;
