@@ -464,12 +464,10 @@ span {
 	margin-left: 80px;
 }
 .footer-form {
-	
-}
-.footer-form-wrapper {
 	display: flex;
 	gap: 24px;
 }
+
 .footer-form-input {
 	width: 264px;
 	height: 40px;
@@ -631,6 +629,7 @@ span {
 	pointer-events: none;
 }
 .modal {
+	padding: 72px 24px 24px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -674,14 +673,13 @@ span {
 /* -----------FORM--------- */
 
 .modal-form {
-	margin: auto;
+	
 	max-width: 360px;
 	
 }
 .form-text {
 	text-align: center;
 	margin-bottom: 16px;
-	margin-top: 72px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -798,7 +796,8 @@ span {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	color: var(--white);
-	margin: 24px auto 24px auto;
+	margin: 0 auto;
+	margin-top: 24px;
 	cursor: pointer;
 	transition: background-color var(--transition);
 }
